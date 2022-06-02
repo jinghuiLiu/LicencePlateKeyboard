@@ -1,0 +1,3 @@
+rootProject.name = "LicencePlateKeyboard"
+include ':app'
+include ':vehiclenuminputlibrary'
