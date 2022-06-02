@@ -13,5 +13,5 @@
   
  ## 第二步
   	dependencies {
-	        implementation 'com.github.jinghuiLiu:LicencePlateKeyboard:Tag'
+	        implementation 'com.github.jinghuiLiu:LicencePlateKeyboard:1.0.0'
 	}
