@@ -11,7 +11,7 @@
 		}
 	}
   
- ## 第二步
+ ## 2.在app/build.gradle中添加如下依赖
   	dependencies {
 	        implementation 'com.github.jinghuiLiu:LicencePlateKeyboard:1.0.0'
 	}
