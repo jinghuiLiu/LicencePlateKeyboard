@@ -4,7 +4,7 @@
 
 ## 1. 在项目的build.gradle添加如下依赖
 
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
