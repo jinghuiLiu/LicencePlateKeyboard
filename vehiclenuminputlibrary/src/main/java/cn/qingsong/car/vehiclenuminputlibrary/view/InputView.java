@@ -428,6 +428,22 @@ public class InputView extends ConstraintLayout {
         }
     }
 
+    public void setEnergySelectedDrawable(@Nullable Drawable mEnergySelectedDrawable) {
+        this.mEnergySelectedDrawable = mEnergySelectedDrawable;
+    }
+
+    public void setEnergyUnSelectedDrawable(@Nullable Drawable mEnergyUnSelectedDrawable) {
+        this.mEnergyUnSelectedDrawable = mEnergyUnSelectedDrawable;
+    }
+
+    public void setSelectedDrawable(@Nullable Drawable mSelectedDrawable) {
+        this.mSelectedDrawable = mSelectedDrawable;
+    }
+
+    public void setUnSelectedDrawable(@Nullable Drawable mUnSelectedDrawable) {
+        this.mUnSelectedDrawable = mUnSelectedDrawable;
+    }
+
     private void provinceTextIsEmpty(TextView textView){
         if (TextUtils.isEmpty(textView.getText().toString())){
             if (mProvinceUnSelectedDrawable != null) {
